@@ -1,6 +1,6 @@
 <?php
 
-namespace AddyAddressFinder\SilverStripe;
+namespace Mark\AddyAddressFinder;
 
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
