@@ -1,0 +1,6 @@
+---
+name: silverstripe-addressfinder
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - "fullscreeninteractive/silverstripe-addressfinder:client/js/addressfinder_ent.js"
