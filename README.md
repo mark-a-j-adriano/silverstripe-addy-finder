@@ -16,7 +16,7 @@ AddressFinder key values via the Config system
 *mysite/_config/addressfinder.yml*
 ```
 mark-a-j-adriano\SilverStripe\AddressFinderField:
-  api_key: 123
+  key: 123
 ```
 
 Then add an instance of `AddressFinderField` to your form fields

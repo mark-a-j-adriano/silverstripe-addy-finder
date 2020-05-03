@@ -1,6 +1,6 @@
 <?php
 
-namespace FullscreenInteractive\SilverStripe;
+namespace AddyAddressFinder\SilverStripe;
 
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
@@ -206,7 +206,7 @@ class AddressFinderField extends TextField
             // leftandmain check. If admin then use entwine.
         } else {
             if (Config::inst()->get(AddressFinderField::class, 'include_address_finder_js')) {
-                Requirements::javascript('fullscreeninteractive/silverstripe-addressfinder:client/js/addressfinder.js');
+                Requirements::javascript('mark-a-j-adriano/silverstripe-addy-finder:client/js/addressfinder.js');
             }
         }
 

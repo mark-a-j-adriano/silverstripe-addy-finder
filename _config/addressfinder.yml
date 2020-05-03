@@ -1,6 +1,6 @@
 ---
-name: silverstripe-addressfinder
+name: silverstripe-addy-finder
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_javascript:
-    - "fullscreeninteractive/silverstripe-addressfinder:client/js/addressfinder_ent.js"
+    - "mark-a-j-adriano/silverstripe-addy-finder:client/js/addressfinder_ent.js"
